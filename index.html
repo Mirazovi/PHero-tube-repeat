@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>PHero-tube-repeat</title>
+    <style>
+        .menu{
+            padding: 5px 30px 5px 30px;
+            background-color: gray;
+            border-radius: 10px;
+            color: white;
+        }
+       
+    </style>
+</head>
+<body class="w-[90%] m-auto">
+    <header>
+        <nav class="flex justify-between py-2 items-center my-6">
+            <div>
+                <img src="image/Logo.png" alt="">
+            </div>
+            <div onclick="handleSort()" class="py-1 px-4 rounded-lg bg-gray-300 text-xl">
+                <h1>Sort By Data</h1>
+            </div>
+            <div class="py-1 px-4 rounded-lg bg-red-600 text-xl">
+                <a href="blog.html">Blog</a>
+            </div>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div id="menu-bar" class="flex justify-center items-center my-4 gap-8 text-2xl">
+
+        </div>
+        <div id="container" class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
+
+        </div>
+        <div id="error">
+
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
